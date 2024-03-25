@@ -1,0 +1,46 @@
+/*header*/
+$color-gris: gray;
+$color-rojo: red;
+
+header {
+    height: 100px;
+    background-color: $color-gris;
+    padding: 0 50px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    text-transform: uppercase;
+    color: $color-rojo;
+    font-weight: 200;
+  }
+  
+  .menu a {
+    color: floralwhite;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+  }
+  
+  .mostrar-menu, .esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+  }
+  
+  .mostrar-menu {
+    order: 1;
+  }
+  
+  .menu a:hover, .mostrar-menu :hover, .esconder-menu :hover {
+    background: white;
+  }
+  
+  #check {
+    display: none;
+  }

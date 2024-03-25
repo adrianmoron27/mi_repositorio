@@ -1,0 +1,55 @@
+/*footer y whatsapp*/
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .agendas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .agenda {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icono {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    a {
+      color: #fff;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  }
+  
+  .boton-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red($color: #000000);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #000000;
+    }
+  }
