@@ -98,7 +98,7 @@ header {
 /*banner*/
 #banner {
   padding: 0 50px;
-  background-image: url(/imagenes/taller\ foto.png);
+  background-image: url(../imagenes/taller\ foto.png);
   height: 45vh;
   background-size: cover;
   background-position: center;

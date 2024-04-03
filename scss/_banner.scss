@@ -6,7 +6,7 @@ $color-rojo: red;
   
 #banner {
   @include fondo-imagen;
-  background-image: url(/imagenes/taller\ foto.png);
+  background-image: url(../imagenes/taller\ foto.png);
   height: 45vh;
   background-size: cover;
   background-position: center;
