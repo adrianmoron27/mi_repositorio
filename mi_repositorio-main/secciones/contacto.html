@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywrods" content="Contactos,Telefono,Dirección,Mapa">
+    <meta name="description" content="Contacto">
+    <title>Onecars/Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    
+<header>
+<h2 class="logo">Onecars</h2>
+<input type="checkbox" id="check">
+<label for="check" class="mostrar-menu" >
+&#8801
+</label>
+<nav class="menu">
+    <a href="../index.html">Inicio</a>
+    <a href="sobrenosotros.html">Sobre nosotros</a>
+    <a href="contacto.html">Contacto</a>
+<label for="check" class="esconder-menu">
+&#215
+</label>
+</nav>
+</header>
+<section id="banner">
+<div class="contenido-banner">
+<h3><span> ONECARS</span> Taller especializado <br> Restauración de clásicos
+</h3>
+<a href="../index.html" class="boton-empezar">INICIO</a>
+
+
+</div>
+</section>
+<div class="contenedor-principal">
+</div>
+<div class="contenedor-principal">
+    <form action="enviar-formulario.php" method="post" class="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+
+</section>
+
+
+<footer class="footer-container">
+    <div class="agendas">
+      <div class="agenda">
+        <i class="icono fas fa-map-marker-alt"></i>
+        Dirección: Calle Principal, 123
+      </div>
+      <div class="contacto">
+        <i class="icono fas fa-phone-alt"></i>
+        Teléfono: 123456789
+      </div>
+      <div class="contacto">
+        <i class="icono fas fa-envelope"></i>
+        Email: contacto@ejemplo.com
+      </div>
+    </div>
+
+    <a href="whatsapp://send?text=Hola,%20estoy%20interesado%20en%20tu%20sitio%20web." class="boton-whatsapp">
+      <i class="fab fa-whatsapp"></i>
+      Chatear con nosotros en WhatsApp
+    </a>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your-font-awesome-script-key.js"></script>
+</body>
+</html>

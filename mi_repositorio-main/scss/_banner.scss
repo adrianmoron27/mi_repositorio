@@ -1,0 +1,48 @@
+/*banner*/
+$color-rojo: red; 
+@mixin fondo-imagen
+  {padding: 0 50px;}
+
+  
+#banner {
+  @include fondo-imagen;
+  background-image: url(../imagenes/taller\ foto.png);
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ 
+ 
+
+  .contenido-banner {
+    h3 {
+      font-size: 30px;
+      font-weight: 400;
+      padding: 10px 0px;
+  
+      span {
+        font-weight: 600;
+      }
+    }
+  
+    position: relative;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .boton-empezar {
+    text-decoration: none;
+    color: white;
+    border: 1px solid $color-rojo;
+    padding: 20px 40px;
+    align-self: baseline;
+    transition: all 0.4s;
+  }
+  
+  .boton-empeza:hover {
+    background-color: $color-rojo;
+ }
